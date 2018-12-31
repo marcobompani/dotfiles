@@ -4,7 +4,7 @@ PACKAGES=(
   git
   gawk
   tmux
-  unity-tweak-tool
+  konsole
 )
 
 sudo apt-get update
