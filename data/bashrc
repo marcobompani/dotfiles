@@ -66,18 +66,16 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1="\[$BWhite\]\[$On_Blue\] Marco Bompani@\h \[$Blue\]\[$On_Red\]\[$BWhite\]\[$On_Red\] \w \[$Red\]\[$On_Black\]\[$White\]\[$On_Black\] "
+    PS1="\[$BWhite\]\[$On_Blue\] Marco Bompani@\h \[$Blue\]\[$On_Red\]\[$BWhite\]\[$On_Red\] \w \[$Red\]\[$White\] "
 else
-    PS1="\[$BWhite\]\[$On_Blue\] Marco Bompani@\h \[$Blue\]\[$On_Red\]\[$BWhite\]\[$On_Red\] \w \[$Red\]\[$On_Black\]\[$White\]\[$On_Black\] "
-    #PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+    PS1="\[$BWhite\]\[$On_Blue\] Marco Bompani@\h \[$Blue\]\[$On_Red\]\[$BWhite\]\[$On_Red\] \w \[$Red\]\[$White\] "
 fi
 unset color_prompt force_color_prompt
 
 # If this is an xterm set the title to user@host:dir
 case "$TERM" in
 xterm*|rxvt*)
-    PS1="\[$BWhite\]\[$On_Blue\] Marco Bompani@\h \[$Blue\]\[$On_Red\]\[$BWhite\]\[$On_Red\] \w \[$Red\]\[$On_Black\]\[$White\]\[$On_Black\] "
-    #PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"
+    PS1="\[$BWhite\]\[$On_Blue\] Marco Bompani@\h \[$Blue\]\[$On_Red\]\[$BWhite\]\[$On_Red\] \w \[$Red\]\[$White\] "
     ;;
 *)
     ;;
