@@ -1,0 +1,6 @@
+alias youtubetomp3='youtube-dl --extract-audio --audio-format mp3'
+alias gvim='gvim -reverse'
+alias keyboard='setxkbmap -option grp:alt_shift_toggle'
+alias c='clear'
+alias gdb='gdb --quiet'
+alias powershell='pwsh'
