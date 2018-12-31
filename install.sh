@@ -4,7 +4,7 @@ PACKAGES=(
   git
   gawk
   tmux
-  konsole
+  terminator
 )
 
 sudo apt-get update
