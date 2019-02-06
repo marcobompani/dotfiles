@@ -5,6 +5,7 @@ PACKAGES=(
   gawk
   tmux
   terminator
+  trash-cli
 )
 
 sudo apt-get update
