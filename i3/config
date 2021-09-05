@@ -195,7 +195,7 @@ exec_always --no-startup-id picom -f
 
 # Rofi
 bindsym $mod+d exec "rofi -show drun -modi drun"
-bindsym $mod+n exec "rofi -show file-browser -modi file-browser"
+bindsym $mod+n exec "rofi -show filebrowser -modi filebrowser"
 
 # Screenshot
 exec_always --no-startup-id flameshot
