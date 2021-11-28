@@ -1,3 +1,2 @@
-configuration {
-	@theme: "~/dotfiles/rofi/arthur.rasi";
-}
+//@theme "/usr/share/rofi/themes/arthur.rasi"
+@theme "/usr/share/rofi/themes/arthur.rasi"
