@@ -4,7 +4,7 @@
 set nocompatible
 filetype off
 call plug#begin('~/.vim/plugged')
-Plug 'mboughaba/i3config.vim'
+"Plug 'mboughaba/i3config.vim'
 " Plug 'ncm2/ncm2'
 " Plug 'ncm2/ncm2-bufword'
 " Plug 'ncm2/ncm2-path'
@@ -181,10 +181,10 @@ let g:ale_fixers = ['trim_whitespace', 'remove_trailing_lines']
 let g:ale_fix_on_save = 1
 let g:ale_exclude_highlights = ['line too long']
 
-aug i3config_ft_detection
-  au!
-  au BufNewFile,BufRead ~/.config/i3/config set filetype=i3config
-aug end
+" aug i3config_ft_detection
+"   au!
+"   au BufNewFile,BufRead ~/.config/i3/config set filetype=i3config
+" aug end
 
 " fzf functions
 " Use preview when FzfFiles runs in fullscreen
