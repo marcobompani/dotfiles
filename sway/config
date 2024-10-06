@@ -149,7 +149,7 @@ exec_always --no-startup-id $HOME/.screenlayout/xrandr.sh
 # exec_always --no-startup-id $HOME/.screenlayout/ita.sh
 
 # Wallpaper
-exec_always feh --bg-fill $HOME/Pictures/arch.jpg
+output * bg $HOME/Pictures/arch.jpg fill
 
 # Picom
 exec_always --no-startup-id picom -f
