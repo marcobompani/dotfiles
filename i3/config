@@ -196,3 +196,6 @@ bindsym $mod+Ctrl+l exec "i3lock --color=000000"
 bar {
         status_command i3status
 }
+
+# Wallpaper
+exec_always nitrogen --restore
